@@ -76,6 +76,6 @@ See also: [GLOSSARY.md](GLOSSARY.md), [docs/adr/](docs/adr/).
 - [x] Production build passes
 
 ## Phase 8 — Ship
-- [ ] `git init`, commit, create public GitHub repo `pft-sim`, push
-- [ ] Create Vercel project `pft-sim`, link to GitHub, deploy
-- [ ] Verify live URL; record it here
+- [x] `git init`, commit, create public GitHub repo `pft-sim`, push — https://github.com/authorart/pft-sim
+- [x] Create Vercel project `pft-sim`, link to GitHub (auto-deploy on push to main), deploy
+- [x] Verify live URL: https://pft-sim.vercel.app
