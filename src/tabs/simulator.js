@@ -76,7 +76,7 @@ function template() {
   </div>
 
   <div class="grid grid-cols-1 gap-5 lg:grid-cols-12">
-    <aside class="space-y-4 lg:col-span-4">
+    <aside id="sim-settings" class="order-2 space-y-4 lg:order-1 lg:col-span-4">
       <div class="card card-pad">
         <h3 class="card-title mb-3">Subject</h3>
         <div class="grid grid-cols-2 gap-3">
@@ -120,16 +120,17 @@ function template() {
       </div>
     </aside>
 
-    <div class="space-y-4 lg:col-span-8">
+    <div class="order-1 space-y-4 lg:order-2 lg:col-span-8">
       <div class="card card-pad">
         <div class="flex flex-wrap items-center gap-2">
           <div class="seg" id="sim-phase">
             <button data-phase="pre">Pre</button><button data-phase="post">Post-BD</button>
           </div>
           <button id="btn-run" class="btn-primary">▶ Run Trial</button>
-          <button id="btn-auto" class="btn-secondary" title="Run Trials until 3 acceptable & repeatable (max 8), without animation">⏩ Auto Session</button>
-          <button id="btn-bd" class="btn-sky" title="Salbutamol 400 µg via spacer, wait 15 minutes">💨 Give bronchodilator</button>
+          <button id="btn-auto" class="btn-secondary" title="Run Trials until 3 acceptable & repeatable (max 8), without animation">Auto Session</button>
+          <button id="btn-bd" class="btn-sky" title="Salbutamol 400 µg via spacer, wait 15 minutes">Give bronchodilator</button>
           <button id="btn-new" class="btn-ghost">↺ New Session</button>
+          <button id="btn-settings" class="btn-ghost lg:hidden">Subject &amp; Preset ↓</button>
           <div class="ml-auto flex items-center gap-2 text-xs text-slate-600">
             <label class="flex items-center gap-1"><input id="in-animate" type="checkbox" /> Animate</label>
             <select id="in-speed" class="input w-auto py-1 text-xs">
@@ -268,6 +269,7 @@ function bindControls() {
     store.touchSession();
   });
   $('#btn-new', root).addEventListener('click', () => store.resetSession());
+  $('#btn-settings', root).addEventListener('click', () => $('#sim-settings', root).scrollIntoView({ behavior: 'smooth', block: 'start' }));
   $('#in-animate', root).addEventListener('change', (e) => (s.animate = e.target.checked));
   $('#in-speed', root).addEventListener('change', (e) => (s.speed = +e.target.value));
   $('#btn-skip', root).addEventListener('click', () => (skipRequested = true));

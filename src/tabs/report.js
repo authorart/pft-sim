@@ -28,7 +28,7 @@ export function mount(el) {
     </div>
     <div class="flex gap-2">
       <button id="rp-demo" class="btn-secondary">Run full Session</button>
-      <button id="rp-print" class="btn-primary">🖨 Print / Save PDF</button>
+      <button id="rp-print" class="btn-primary">Print / Save PDF</button>
     </div>
   </div>
   <div id="rp-empty" class="no-print"></div>

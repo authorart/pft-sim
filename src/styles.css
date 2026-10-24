@@ -52,6 +52,17 @@
 
 input[type="range"] { accent-color: #4f46e5; }
 
+:focus-visible { outline: 2px solid #4f46e5; outline-offset: 2px; }
+
+/* Larger touch targets on touch screens */
+@media (pointer: coarse) {
+  .chip { min-height: 2.5rem; padding-inline: 0.9rem; }
+  .seg button { min-height: 2.25rem; }
+  .btn, .btn-primary, .btn-secondary, .btn-sky, .btn-ghost { min-height: 2.75rem; }
+  .tab-btn { padding-block: 0.8rem; }
+  .input { min-height: 2.5rem; }
+}
+
 .coach {
   transition: opacity 0.2s, transform 0.2s;
 }
@@ -67,4 +78,9 @@ input[type="range"] { accent-color: #4f46e5; }
   .report-page { box-shadow: none !important; border: none !important; margin: 0 !important; width: auto !important; min-height: 0 !important; padding: 0 !important; }
   .report-page textarea, .report-page input { border: none !important; resize: none; padding: 0 !important; }
   .report-page ::placeholder { color: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .coach, .coach.pulse { animation: none; transition: none; }
+  html { scroll-behavior: auto; }
 }
