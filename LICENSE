@@ -1,0 +1,22 @@
+Copyright (c) 2026 Siro Jantharaksa, MD. All rights reserved.
+
+This software and its associated content (source code, text, figures and
+teaching material) are proprietary. No part of it may be copied, modified,
+distributed, published, sublicensed or used to create derivative works without
+the prior written permission of the copyright holder.
+
+Viewing the publicly deployed application for personal medical education is
+permitted.
+
+Third-party components remain under their own licences:
+  - Chart.js and chartjs-plugin-annotation (MIT)
+  - Tailwind CSS (MIT), Vite (MIT)
+  - GLI-2012 and GLI Global reference equations and lookup tables, published
+    by the Global Lung Function Initiative for implementation in software
+    (Quanjer et al., Eur Respir J 2012; Bowerman et al., AJRCCM 2023). The
+    table files were taken from the data-raw folder of the rspiro project
+    (github.com/thlytras/rspiro), which redistributes the original GLI files.
+
+THE SOFTWARE IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY, "AS IS", WITHOUT
+WARRANTY OF ANY KIND. IT IS NOT A MEDICAL DEVICE AND MUST NOT BE USED FOR
+CLINICAL DIAGNOSIS OR PATIENT MANAGEMENT.

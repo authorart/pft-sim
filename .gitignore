@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+scripts/*.out.txt
+.DS_Store
+
+# Copyrighted reference PDFs — keep local only
+references/
