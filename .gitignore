@@ -6,3 +6,6 @@ scripts/*.out.txt
 
 # Copyrighted reference PDFs — keep local only
 references/
+
+.vercel
+.env*
