@@ -1,6 +1,6 @@
 /**
  * PFT Simulator — entry point: tab navigation and lazy mounting of each section.
- * © 2026 Siro Jantharaksa, MD. All rights reserved.
+ * © 2026 Sirot Jantharaksa, MD. All rights reserved.
  */
 import './styles.css';
 import { $ } from './ui/dom.js';

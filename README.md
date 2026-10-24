@@ -2,7 +2,7 @@
 
 Interactive web application that teaches medical students, residents and pulmonary fellows how spirometry is performed, quality-controlled and interpreted.
 
-**© 2026 Siro Jantharaksa, MD. All rights reserved.** For medical education only — simulated data, not for clinical use.
+**© 2026 Sirot Jantharaksa, MD. All rights reserved.** For medical education only — simulated data, not for clinical use.
 
 ## Sections
 

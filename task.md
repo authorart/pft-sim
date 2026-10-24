@@ -1,6 +1,6 @@
 # PFT Simulator — Task Tracker
 
-© 2026 Siro Jantharaksa, MD. All rights reserved.
+© 2026 Sirot Jantharaksa, MD. All rights reserved.
 
 Legend: `[ ]` todo · `[~]` in progress · `[x]` done
 

@@ -2,8 +2,8 @@
   "name": "pft-sim",
   "private": true,
   "version": "1.0.0",
-  "description": "Pulmonary Function Test (Spirometry) Simulator for medical education. © 2026 Siro Jantharaksa, MD. All rights reserved.",
-  "author": "Siro Jantharaksa, MD",
+  "description": "Pulmonary Function Test (Spirometry) Simulator for medical education. © 2026 Sirot Jantharaksa, MD. All rights reserved.",
+  "author": "Sirot Jantharaksa, MD",
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {

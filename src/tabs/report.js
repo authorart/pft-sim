@@ -166,7 +166,7 @@ function render() {
     </section>
 
     <footer class="mt-4 flex justify-between border-t border-slate-300 pt-1 text-[8.5px] text-slate-500">
-      <span>© 2026 Siro Jantharaksa, MD · PFT Simulator — simulated data for medical education, not a medical record.</span>
+      <span>© 2026 Sirot Jantharaksa, MD · PFT Simulator — simulated data for medical education, not a medical record.</span>
       <span>Page 1 / 1</span>
     </footer>`;
 
